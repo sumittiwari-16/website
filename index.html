@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My AWS Hosted Website</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="header">
+    <h1>🌍 My AWS Static Website</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="images/Amazon_Web_Services_Logo.svg" alt="AWS Logo" class="hero-img" />
+    <h2>Hosted on AWS S3 + CloudFront + Route53</h2>
+    <p>
+      This website is globally available, HTTPS secured, and optimized for speed using AWS Cloud services.
+    </p>
+    <button onclick="showAlert()">Click Me 🚀</button>
+  </section>
+
+  <section class="cards">
+    <div class="card">
+      <img src="images/cloudformation.png" alt="CloudFormation" />
+      <h3>CloudFormation</h3>
+      <p>Automates infrastructure provisioning using templates for repeatable deployments.</p>
+    </div>
+    <div class="card">
+      <img src="images/route53image.png" alt="Route53" />
+      <h3>Route53</h3>
+      <p>Connects custom domains and ensures 99.9% uptime for your static site.</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2024 MyWebsite | Deployed using AWS CLI & CodePipeline
+  </footer>
+</body>
+</html>
